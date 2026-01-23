@@ -320,7 +320,7 @@ nav a.active {
     background-color: var(--bg-light);
 }
 
-.bg-green-tint {
+.bg-blue-tint {
     background-color: var(--bg-tint);
 }
 
@@ -667,7 +667,7 @@ footer {
     width: 100vw;
     margin-left: calc(50% - 50vw);
     padding: 100px 20px 120px;
-    background: linear-gradient(to bottom, #f3faf3, #ffffff);
+    background: linear-gradient(to bottom, var(--bg-tint), #ffffff);
     font-family: var(--font-heading);
 }
 
@@ -700,13 +700,13 @@ footer {
     gap: 10px;
     margin: 0 auto 26px;
     padding: 10px 20px;
-    background: rgba(0, 113, 61, 0.08);
-    /* Using primary green */
+    background: rgba(30, 58, 138, 0.08);
+    /* Using primary blue */
     color: var(--primary-blue);
     font-weight: 600;
     font-size: 15px;
     border-radius: 999px;
-    box-shadow: inset 0 0 0 1px rgba(0, 113, 61, 0.15);
+    box-shadow: inset 0 0 0 1px rgba(30, 58, 138, 0.15);
 }
 
 .av-yard-ba-icon {
@@ -822,8 +822,8 @@ footer {
 
 .av-yard-after-pill {
     right: 16px;
-    background: rgba(0, 113, 61, 0.9);
-    /* Matching primary green */
+    background: rgba(6, 182, 212, 0.9);
+    /* Matching accent cyan */
 }
 
 /* ====================================== */
@@ -834,7 +834,7 @@ footer {
     width: 100vw;
     margin-left: calc(50% - 50vw);
     padding: 100px 20px;
-    background: #f6fbf3;
+    background: var(--bg-light);
     font-family: var(--font-heading);
 }
 
@@ -949,7 +949,7 @@ footer {
 
 /* MAP CARD */
 .av-palmdale-map-wrap {
-    background: linear-gradient(to bottom, #f9fff9, #ffffff);
+    background: linear-gradient(to bottom, var(--bg-tint), #ffffff);
     border-radius: 18px;
     padding: 40px 20px;
     text-align: center;
@@ -961,8 +961,8 @@ footer {
     content: "";
     position: absolute;
     inset: 14%;
-    background: rgba(0, 113, 61, 0.08);
-    /* Green tint overlay */
+    background: rgba(30, 58, 138, 0.08);
+    /* Blue tint overlay */
     border-radius: 32px;
 }
 
